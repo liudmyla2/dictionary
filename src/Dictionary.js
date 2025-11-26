@@ -19,7 +19,7 @@ export default function Dictionary(props) {
  }
 
   function search() {
-    // documentation: https://dictionaryapi.dev/e
+   
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleDictionResponse);
 
@@ -47,7 +47,9 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section className="Search-section">
+        <section
+          className="Search"
+        >
           <h1>Enter a word to search?</h1>
           <form onSubmit={handleSubmit}>
             <input
