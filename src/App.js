@@ -13,7 +13,12 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Liudmyla Kostiuk</small>
+          <small>
+            Coded by{" "}
+            <a href="https://www.linkedin.com/in/liudmyla-kostiuk-5156ab42/" target="_blank" rel="noreferrer">
+              Liudmyla Kostiuk
+            </a>
+          </small>
         </footer>
       </div>
     </div>

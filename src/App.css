@@ -4,6 +4,7 @@ body {
 
 a {
   color: #9670f4;
+  text-decoration: none;
 }
 
 .App-header {
